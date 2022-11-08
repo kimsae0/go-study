@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/kimsae0/go-study/interface/school"
-	"github.com/kimsae0/go-study/interface/work"
+	// "github.com/kimsae0/go-study/interface/work"
 )
 
 type Rider interface {
@@ -20,7 +20,7 @@ func main() {
 	RideVehicle("버스", schoolRider)
 	RideVehicle("지하철", schoolRider)
 
-	workRider := &work.WorkRider{}
-	RideVehicle("버스", workRider)
-	RideVehicle("지하철", workRider)
+	// workRider := &work.WorkRider{}
+	// RideVehicle("버스", workRider)
+	// RideVehicle("지하철", workRider)
 }
