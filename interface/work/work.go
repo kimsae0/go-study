@@ -1,4 +1,4 @@
-package school
+package work
 
 import "fmt"
 
